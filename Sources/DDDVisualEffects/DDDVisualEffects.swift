@@ -1,3 +1,5 @@
+import SwiftUI
+
 #if os(macOS)
 //struct BlurViewRepresentable: NSViewRepresentable {
 //    let material: NSVisualEffectView.Material
@@ -133,7 +135,6 @@ extension View {
 #endif
 
 #if os(iOS)
-
 struct BlurEffectStyleKey: EnvironmentKey {
     static var defaultValue: UIBlurEffect.Style = .systemMaterial
 }
